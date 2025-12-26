@@ -8,7 +8,8 @@ The pipeline ingests raw transaction data, cleans and structures it,
 applies business logic, and produces analytics-ready datasets.
 
 ## Architecture
-<img width="450" height="1040" alt="Data Pipeline Medalion Architecture" src="https://github.com/user-attachments/assets/178c83d5-f3d5-4c5b-92f7-98f357969e49" />
+<img width="718" height="1095" alt="Data Pipeline Medalion Architecture (1)" src="https://github.com/user-attachments/assets/a46b6e71-3c78-4e14-83e4-2ebe7e56b40e" />
+
 
 
 ## Tech Stack
