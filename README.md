@@ -32,6 +32,26 @@ Applies business logic and computes metrics.
 Aggregates data for analytics and reporting.
 
 ## How to Run
+
+1. Create new databse in postgre
+```commandline
+CREATE DATABASE your_database;
+```
+2. Create new schema in your database
+```commandline
+\c your_database
+CREATE SCHEMA raw;
+CREATE SCHEMA bronze;
+CREATE SCHEMA silver;
+CREATE SCHEMA gold;
+\dn
+```
+3. Set Search Path (Optional)
+```commandline
+ALTER DATABASE your_database
+SET search_path TO raw, bronze, silver, gold, public;
+```
+4. Run all script
 ```bash
 python etl/run_all.py
 ```
